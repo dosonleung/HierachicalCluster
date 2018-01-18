@@ -17,7 +17,7 @@ The yellow blocks divided into two parts.On one part,the column of the yellow bl
 And for the green parts,they also divide into two parts.On one part,the column of the green blocks was equal to the red block's column.On another part,the row was equal to the
 block's row.
 You can also realize that the number of the yellow blocks is the same as the green blocks which equals to the number of the nodes minus one.
-The yellow and green block correspond with each other in order.Such as the first yellow block corresponds with the first block in green.Let use Y[i] and G[i] to stand for the i block in the yellow or the green queue.
+The yellow and green block correspond with each other in order.Such as the first yellow block corresponds with the first block in green.In our case,we make a naming convention that Y[i] and G[i] stands for the i block in the yellow or the green queue.
 If the Y[i] < G[i] and Y[i] > 0,the G[i] will be set as 0.If the Y[i] > G[i],the Y[i] will be covered with G[i] and G[i] will be zero.In the end,if Y[i] equals to G[i] and both of them are greater than zero,the green
 block will be set at zero.
 ![GitHub](https://github.com/leungs/HierachicalCluster/blob/master/HierarchicalCluster/0.png?raw=true "GitHub,Social Coding")
